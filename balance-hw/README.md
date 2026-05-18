@@ -22,4 +22,7 @@ HAproxy должен балансировать только тот http-тра�
 
 <img width="818" height="463" alt="image" src="https://github.com/user-attachments/assets/ad9c0257-860b-45e1-a969-88fefbd3486d" />
 
+<img width="789" height="465" alt="image" src="https://github.com/user-attachments/assets/7164fad0-86ff-487d-b12f-f9ed515c5b53" />
+
+
 Файл haproxy - https://github.com/OreshkinEugeniy/netology-hw/blob/main/balance-hw/haproxy2.cfg
