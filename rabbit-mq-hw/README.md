@@ -37,13 +37,32 @@ $ cat /etc/hosts
 Затем объедините две машины в кластер и создайте политику ha-all на все очереди.
 
 В качестве решения домашнего задания приложите скриншоты из веб-интерфейса с информацией о доступных нодах в кластере и включённой политикой.
+<img width="1373" height="847" alt="image" src="https://github.com/user-attachments/assets/d2ad97f0-af08-4f34-a8a5-a8a6ffd5e936" />
 
 Также приложите вывод команды с двух нод:
 
 $ rabbitmqctl cluster_status
+
+linux-vm-2
+<img width="702" height="660" alt="image" src="https://github.com/user-attachments/assets/c4b5328f-4fb7-410d-b08f-6b6dd79f34e7" />
+<img width="1376" height="596" alt="image" src="https://github.com/user-attachments/assets/e8aacac2-d94e-4dbe-8957-0d8685b98f89" />
+<img width="778" height="518" alt="image" src="https://github.com/user-attachments/assets/7d5c4120-5943-44be-987d-2c6d62906de8" />
+
+linux-vm-1
+<img width="809" height="786" alt="image" src="https://github.com/user-attachments/assets/dd463495-0f2a-4349-b939-e9bdd11c5a3a" />
+<img width="1282" height="790" alt="image" src="https://github.com/user-attachments/assets/d02b4762-35ff-492b-bf8f-070eac9d6fbd" />
+
+
 Для закрепления материала снова запустите скрипт producer.py и приложите скриншот выполнения команды на каждой из нод:
 
 $ rabbitmqadmin get queue='hello'
+
+<img width="685" height="115" alt="image" src="https://github.com/user-attachments/assets/a392f1fb-538e-4a05-a35e-def66143453c" />
+
+<img width="1253" height="106" alt="image" src="https://github.com/user-attachments/assets/f7f4ed5a-7aed-4103-921f-dc1ace7d246e" />
+
 После чего попробуйте отключить одну из нод, желательно ту, к которой подключались из скрипта, затем поправьте параметры подключения в скрипте consumer.py на вторую ноду и запустите его.
 
 Приложите скриншот результата работы второго скрипта.
+<img width="760" height="366" alt="image" src="https://github.com/user-attachments/assets/d139c93a-96bf-4e6b-930e-c9b21239c233" />
+
